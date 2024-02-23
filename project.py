@@ -47,3 +47,10 @@ print("Multiplication:", mul_result)
 print("Division:", div_result)
 print("Modulus:", mod_result)
 print("Exponentiation:", exp_result)
+
+# Comparison Operations
+age = 41
+is_adult = age >= 18
+is_teenager = age >= 13 and age < 18
+print("Is Adult:", is_adult)
+print("Is Teenager:", is_teenager)
