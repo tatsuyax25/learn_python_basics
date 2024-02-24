@@ -63,3 +63,8 @@ elif 18 <= age < 21:
   print("You are an adult, but not yet allowed to drink.")
 else:
   print("You are a legal adult.");
+
+# for Loop
+fruits = ["Apple", "Banana", "Orange"]
+for fruit in fruits:
+  print(fruit)
