@@ -68,3 +68,9 @@ else:
 fruits = ["Apple", "Banana", "Orange"]
 for fruit in fruits:
   print(fruit)
+
+# While Loop
+count = 0
+while count < 5:
+  print("Count:", count)
+  count += 1
