@@ -74,3 +74,19 @@ count = 0
 while count < 5:
   print("Count:", count)
   count += 1
+
+# Break Statement
+print("Output with 'break':")
+for i in range(5):
+  if i == 3:
+    print(f"Encountered 'break' at i={i}")
+    break
+  print(i)
+
+# Continue Statement
+print("\nOutput with 'continue':")
+for i in range(5):
+  if i == 2:
+    print(f"Skipped iteration with 'continue' at i={i}")
+    continue
+  print(i)
